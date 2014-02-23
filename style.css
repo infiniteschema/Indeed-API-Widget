@@ -3,12 +3,16 @@
 .indeedformwrapper .indeedlabel1, .indeedformwrapper .indeedinput, .indeedformwrapper .indeedlabel2 {
 	width: 50%;
 }
-.indeedformwrapper .indeedlabel2:hover {
-	font-size: 0.75em;
+.indeedformwrapper .indeedlabel2 {
+	position: relative;
+	top: -8em !important;
+	line-height: 1;
 }
 .indeedformwrapper .indeedinput2 {
 	clear: both;
 	float: none;
+	display: block;
+	margin-top: 4em !important;
 }
 .indeedformwrapper .indeedinput2 input {
 	width: 100%;
@@ -16,7 +20,6 @@
 #indeedsearchresults {
 	clear: both;
 	float: none !important;
-	margin-top: 1em;
 }
 .indeedresult, .indeedresult > div {
 	float: inherit !important;
